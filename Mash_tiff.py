@@ -21,7 +21,7 @@ from mpl_toolkits.mplot3d import Axes3D
 #zorg dat het werkt voor tifs van enige grote
 #begin met zorgen voor tifs van enige diepte
 
-im = tifffile.imread('20190701--20119.tif')
+im = tifffile.imread('20190701--20119.tif') # add path to file here
 # im.show()
 # img = tifffile.imread('20190701--20000.obj')
 # img_array= np.array(img)
